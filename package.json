@@ -1,0 +1,10 @@
+{
+  "name": "holiday-time",
+  "version": "1.0.0",
+  "description": "Мій сайт Holiday Time",
+  "scripts": {
+    "start": "npx serve ."
+  },
+  "author": "Aleksandra-15",
+  "license": "MIT"
+}

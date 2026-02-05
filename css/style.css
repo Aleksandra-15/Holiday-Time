@@ -297,23 +297,6 @@ body {
   left: 0;
 }
 
-.connection__arrow {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  background-color: #888;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  right: 55px;
-  bottom: -173%;
-}
-
-.connection__arrow:hover {
-  background-color: #555;
-}
-
 .footer {
   background: #202846;
   width: 100%;
