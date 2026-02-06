@@ -1,0 +1,64 @@
+.btn {
+  position: relative;
+}
+
+.carpathians__btn {
+  display: flex;
+  gap: 10px;
+  position: absolute;
+  padding: 0 40px;
+  top: 40px;
+  left: 100px;
+  width: 180px;
+  height: 60px;
+}
+
+.carpathians__arrow {
+  width: 24px;
+  height: 24px;
+  transform: rotate(180deg);
+}
+
+.hidden__group {
+  display: flex;
+  position: relative;
+}
+
+.hidden__block {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.hidden__column {
+  padding: 125px 50px 30px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 5px;
+}
+
+.hidden__box {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.hidden__text {
+  position: absolute;
+  width: 850px;
+  height: 370px;
+  top: 0;
+  left: 49%;
+  transform: translateX(-10%);
+}
+
+
+
+.hidden__text {
+  font-weight: 400;
+  font-size: 29px;
+  color: #000;
+  background: #c7c7c7;
+  padding: 10px 90px;
+}

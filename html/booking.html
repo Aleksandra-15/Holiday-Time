@@ -10,18 +10,18 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Onest:wght@100..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="../css/booking.css">
+  <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
-  <!-- ДОБАВИТИ Header , footer після закінчення проекту  -->
+
   <header class="header">
     <div class="container">
       <div class="header__inner">
-        <img class="header__logo" src="../svg/header-logo.svg">
+        <a class="header__ll" href="../index.html"><img class="header__logo" src="../svg/header-logo.svg"></a>
         <nav class="header__nav">
           <ul class="header__list">
-            <li class="header__item"> <a class="header__link" href="index.html">ГОЛОВНА</a> </li>
+            <li class="header__item"> <a class="header__link" href="../index.html">ГОЛОВНА</a> </li>
             <li class="header__item"> <a class="header__link" href="/">ПРО НАС</a> </li>
             <li class="header__item"> <a class="header__link" href="html/booking.html">ЗАБРОНЮВАТИ</a> </li>
             <li class="header__item"> <a class="header__link" href=""> КОНТАКТИ</a></li>
@@ -48,8 +48,6 @@
 
 
 
-
-
   <section class="section">
     <div class="container">
       <div class="booking">
@@ -57,20 +55,25 @@
       </div>
     </div>
   </section>
-  <!-- <section class="section">
+
+
+
+  <section class="section">
     <div class="container">
       <div class="location">
-        <label for="location">Оберіть місцерозташування: <img class="" src="../svg/triangle.svg"></label>
-        <select id="location">
 
-          <option value="bakota"> Бакота</option>
-          <option value="karpaty"> Карпат</option>
-          <option value="kyiv">Київ</option>
-          <option value="odesa">Одеська область</option>
-        </select>
+        <div class="select-wrapper">
+          <select id="location">
+            <option class="location__text" for="location">Оберіть місцерозташування:</option>
+            <option class="location__text" value="bakota"> Бакота</option>
+            <option class="location__text" value="carpathians">Карпати</option>
+            <option class="location__text" value="kyiv">Київ</option>
+            <option class="location__text" value="odesa"> Одеська область</option>
+          </select>
+        </div>
       </div>
     </div>
-  </section> -->
+  </section>
   <section class="section">
     <div class="container">
       <div class="cards">
@@ -144,5 +147,6 @@
     </div>
   </footer>
 </body>
+
 
 </html>

@@ -1,3 +1,3 @@
-document.querySelector('.services__next').addEventListener('click', () => {
-  alert('Тут можна зробити функцію перегортання на наступну секцію або слайд');
-});
+document.getElementById("myBtn").addEventListener("click", function(){
+  window.location.href = "http://localhost:3000/html/carpathians"
+})
