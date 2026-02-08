@@ -46,14 +46,20 @@
 
 .hidden__text {
   position: absolute;
-  width: 850px;
-  height: 370px;
-  top: 0;
-  left: 49%;
+  width: 845px;
+  height: 365px;
+  top: 97px;
+  left: 51.3%;
   transform: translateX(-10%);
 }
 
+.hidden__imgx {
+  width: 420px;
+}
 
+.hidden__imgk {
+  width: 600px;
+}
 
 .hidden__text {
   font-weight: 400;
@@ -61,4 +67,76 @@
   color: #000;
   background: #c7c7c7;
   padding: 10px 90px;
+}
+
+.hidden__titel {
+  text-align: center;
+  font-weight: 700;
+  font-size: 48px;
+  color: #202846;
+}
+
+.active__text {
+  font-weight: 400;
+  font-size: 29px;
+  color: #000;
+}
+
+.active__label {
+  font-weight: 400;
+  font-size: 29px;
+  color: #000;
+}
+
+.flatpickr-calendar {
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  font-family: "Segoe UI", sans-serif;
+}
+
+.flatpickr-day.selected {
+  background: #4CAF50;
+  color: #fff;
+}
+
+.flatpickr-day.today {
+  border: 1px solid #4CAF50;
+}
+
+.flatpickr-months .flatpickr-prev-month,
+.flatpickr-months .flatpickr-next-month {
+  color: #4CAF50;
+  font-size: 18px;
+  transition: 0.2s;
+}
+
+.flatpickr-months .flatpickr-prev-month:hover,
+.flatpickr-months .flatpickr-next-month:hover {
+  color: #2E7D32;
+}
+
+.date-input {
+  position: relative;
+  display: inline-block;
+
+  align-items: center;
+}
+
+.date-input input {
+  padding-right: 40px;
+
+}
+
+
+.calendar-icon {
+  position: absolute;
+  top: 28px;
+  left: 40%;
+  width: 20px;
+  height: 20px;
+  background: url('../svg/calendar.svg') no-repeat center;
+  pointer-events: none;
+
+  transform: translateY(-50%);
+  background-size: contain;
 }

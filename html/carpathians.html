@@ -10,6 +10,7 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Onest:wght@100..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
     rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
   <link rel="stylesheet" href="../css/style.css">
 </head>
 
@@ -88,7 +89,55 @@
       </div>
     </div>
   </section>
+  <h3 class="hidden__titel">Наявність місць</h3>
+  <section class="section">
+    <div class="container">
+      <div class="active">
+        <p class="active__text">
+          Коли б Ви хотіли зупинись в помешканні Полонини Карпат?
+        </p>
+
+        <div class="active__more">
+          <form class="active__reservation ">
+            <div class="date-input">
+              <label class="active__label">Дата заїзду</label>
+              <input class="active__date" id="arrivalDate" type="text" placeholder="Дата заїзду" />
+              <span class="calendar-icon"></span>
+            </div>
+            <div class="date-input">
+              <label class="active__label">Дата заїзду</label>
+              <input class="active__date" id="arrivalDate" type="text" placeholder="Дата заїзду" />
+              <span class="calendar-icon"></span>
+            </div>
+            <button class="active__btn">Перевірити наявність вільних місць</button>
+          </form>
+        </div>
+
+        <!-- перетягнути стилі стрілочки з 
+         попередньої секції до інпутів
+          відцентрувати все задати 
+          задній фон секції -->
+
+        <div class="active__theme">
+          <form class="active__reservation ">
+            <label class="active__label" for="arrival">Номери</label>
+            <input class="active__input" id="data" type="number" />
+            <label class="active__label" for="departure">Дорослі</label>
+            <input class="active__input" id="data" type="number" />
+            <label class="active__label" for="departure">Діти</label>
+            <input class="active__input" id="data" type="number" />
+
+          </form>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
 
 </body>
+<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+<script src="https://cdn.jsdelivr.net/npm/flatpickr/dist/l10n/uk.js"></script>
+<script src="../js/flatpickr.js"></script>
 
 </html>

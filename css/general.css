@@ -176,7 +176,6 @@ button {
   font-weight: 400;
   font-weight: bold;
   border-radius: 50px;
-  
 }
 
 
@@ -199,4 +198,9 @@ button {
   font-size: 36px;
 
   color: #eeecf1;
+}
+
+input {
+  border: 2px solid #90a4ae;
+  padding: 18px 40px;
 }

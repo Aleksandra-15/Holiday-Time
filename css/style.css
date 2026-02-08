@@ -152,21 +152,19 @@
 }
 
 .connection__input {
-  border: 2px solid #90a4ae;
-  padding: 18px 28px;
+
   width: 408px;
   margin-left: 55px;
 
 }
 
 .connection__btn {
-  font-weight: 400;
   font-size: 36px;
   color: #fff;
   width: 100%;
-  background: #444765;
   height: 100px;
   position: absolute;
   bottom: 0;
   left: 0;
+  border-radius: 0%;
 }

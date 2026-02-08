@@ -6,5 +6,8 @@
     "start": "npx serve ."
   },
   "author": "Aleksandra-15",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "flatpickr": "^4.6.13"
+  }
 }
