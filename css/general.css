@@ -173,7 +173,6 @@ button {
   color: #fff;
   align-items: center;
   font-size: 24px;
-  font-weight: 400;
   font-weight: bold;
   border-radius: 50px;
 }
@@ -202,5 +201,5 @@ button {
 
 input {
   border: 2px solid #90a4ae;
-  padding: 18px 40px;
+
 }

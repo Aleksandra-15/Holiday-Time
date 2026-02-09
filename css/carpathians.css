@@ -31,7 +31,7 @@
 }
 
 .hidden__column {
-  padding: 125px 50px 30px;
+  padding: 125px 0px 30px;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
@@ -49,7 +49,7 @@
   width: 845px;
   height: 365px;
   top: 97px;
-  left: 51.3%;
+  left: 47.8%;
   transform: translateX(-10%);
 }
 
@@ -76,16 +76,24 @@
   color: #202846;
 }
 
+.active {
+  padding: 15px 45px;
+  background: #ceced8;
+}
+
 .active__text {
   font-weight: 400;
   font-size: 29px;
   color: #000;
+  margin-top: 0;
 }
 
-.active__label {
-  font-weight: 400;
-  font-size: 29px;
-  color: #000;
+
+
+.active__btn {
+  padding: 20px 40px;
+  width: 351px;
+  border-radius: 0;
 }
 
 .flatpickr-calendar {
@@ -117,9 +125,15 @@
 
 .date-input {
   position: relative;
-  display: inline-block;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
 
-  align-items: center;
+}
+
+.active__date {
+  padding: 18px 40px;
 }
 
 .date-input input {
@@ -127,11 +141,15 @@
 
 }
 
+.active__input {
+  height: 60px;
+  width: 60px;
+}
 
 .calendar-icon {
   position: absolute;
-  top: 28px;
-  left: 40%;
+  left: 10px;
+  top: 73%;
   width: 20px;
   height: 20px;
   background: url('../svg/calendar.svg') no-repeat center;
@@ -139,4 +157,121 @@
 
   transform: translateY(-50%);
   background-size: contain;
+}
+
+.date-input::after {
+  content: "";
+  position: absolute;
+  left: 83%;
+  top: 70%;
+  transform: translateY(-50%);
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 20px solid #333;
+}
+
+.active__reservation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.active__theme {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.data__reservation {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.active__label {
+  margin-bottom: 5px;
+  font-weight: 400;
+  font-size: 29px;
+  color: #000;
+}
+
+.active__input {
+  width: 80px;
+  padding: 5px 10px;
+  font-size: 16px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  appearance: none;
+}
+
+.active__input::-webkit-inner-spin-button,
+.active__input::-webkit-outer-spin-button {
+  opacity: 1;
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+}
+
+.active__input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.table__wrapper {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.table__reservation {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+}
+
+.table__reservation th {
+  background: #4c536b;
+  text-align: left;
+  padding: 12px 40px;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 32px;
+  border: 3px solid #8f98b9;
+}
+
+.table__reservation td {
+  padding: 35px;
+  vertical-align: middle;
+  border: 3px solid #8f98b9;
+}
+
+.icon__group {
+  display: flex;
+  justify-content: center;
+}
+
+.room__type {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 22px;
+  margin: 0;
+  color: #000;
+}
+
+.icon__type {
+  margin-left: 25px;
+}
+
+.btn__price {
+  background: #687bc0;
+  border-radius: 0;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 32px;
+  padding: 8px 14px;
+
+}
+
+.btn__price:hover {
+  background-color: #202846;
 }
