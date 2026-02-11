@@ -56,7 +56,7 @@ select {
   margin: 0;
 }
 
-hr {
+.cards hr {
   border: 2px solid #fff;
   width: 712px;
 }

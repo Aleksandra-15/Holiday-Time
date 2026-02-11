@@ -1,0 +1,31 @@
+.contacts__titel {
+  font-weight: 400;
+  font-size: 32px;
+  color: #000;
+  margin: 0;
+  margin-top: 60px;
+}
+
+.contacts__date {
+  margin: 0;
+  font-weight: 400;
+  font-size: 30px;
+  text-align: center;
+  color: #000;
+}
+
+.contacts hr {
+  border: 2px solid #202846;
+}
+
+.contacts__block {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contacts__box {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}

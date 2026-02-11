@@ -1,0 +1,60 @@
+.personal__date {
+  display: flex;
+  background: #bdbdc6;
+  align-items: center;
+  justify-content: space-around;
+  padding: 70px 100px;
+  gap: 100px;
+  margin-top: 40px;
+}
+
+.personal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.personal__box {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.personal__item {
+  font-style: italic;
+  font-weight: 700;
+  font-size: 36px;
+  color: #353c57;
+}
+
+.personal__link {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 36px;
+  color: #353c57;
+}
+
+.personal__btn {
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+  background: #69749b;
+  padding: 10px 30px;
+}
+
+.personal__btn-settings {
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+  background: #484a54;
+  padding: 10px 30px;
+}
+
+.btn {
+  padding: 10px 30px;
+}
+
+hr {
+  border: 2px solid #fff;
+}
