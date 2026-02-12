@@ -47,7 +47,6 @@
 .hidden__text {
   position: absolute;
   width: 845px;
-  height: 365px;
   top: 97px;
   left: 47.8%;
   transform: translateX(-10%);
@@ -66,7 +65,7 @@
   font-size: 29px;
   color: #000;
   background: #c7c7c7;
-  padding: 10px 90px;
+  padding: 40px 90px;
 }
 
 .hidden__titel {
